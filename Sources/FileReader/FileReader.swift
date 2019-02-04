@@ -2,7 +2,7 @@ import Foundation
 
 public class FileReader {
 
-  static func read(fileName: String) -> String? {
+  public static func read(fileName: String) -> String? {
 
     let fileManager = FileManager.default
 
